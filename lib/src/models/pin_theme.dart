@@ -60,7 +60,7 @@ class PinTheme {
     this.activeFillColor = Colors.green,
     this.selectedFillColor = Colors.blue,
     this.inactiveFillColor = Colors.red,
-    this.gradient,
+    this.gradient = null,
     this.errorBorderColor = Colors.redAccent,
   });
 
