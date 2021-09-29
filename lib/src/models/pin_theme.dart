@@ -1,7 +1,6 @@
 part of pin_code_fields;
 
 class PinTheme {
-
   final Gradient? gradient;
 
   /// Colors of the input fields which have inputs. Default is [Colors.green]
@@ -82,8 +81,7 @@ class PinTheme {
       EdgeInsetsGeometry? fieldOuterPadding}) {
     final defaultValues = PinTheme.defaults();
     return PinTheme.defaults(
-      gradient:
-          gradient == null ? defaultValues.gradient : gradient,
+      gradient: gradient == null ? defaultValues.gradient : gradient,
       activeColor:
           activeColor == null ? defaultValues.activeColor : activeColor,
       activeFillColor: activeFillColor == null
