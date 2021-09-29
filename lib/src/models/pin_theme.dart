@@ -67,7 +67,7 @@ class PinTheme {
   factory PinTheme(
       {Color? activeColor,
       Color? selectedColor,
-      Gradient? gradient;
+      Gradient? gradient,
       Color? inactiveColor,
       Color? disabledColor,
       Color? activeFillColor,
