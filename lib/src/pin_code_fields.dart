@@ -815,6 +815,7 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
               duration: widget.animationDuration,
               width: _pinTheme.fieldWidth,
               height: _pinTheme.fieldHeight,
+              gradient: _pinTheme.gradient,
               decoration: BoxDecoration(
                 color: widget.enableActiveFill
                     ? _getFillColorFromIndex(i)
